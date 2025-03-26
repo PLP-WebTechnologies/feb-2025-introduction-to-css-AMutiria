@@ -1,0 +1,72 @@
+header, footer {
+    text-align: center;
+    color: white;
+    font-size: 2em; 
+    font-weight: bold; 
+    background-color: seagreen; 
+    padding: 15px; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+* {
+    background-color: skyblue; 
+    color: black; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; 
+    font-weight: normal; 
+   
+}
+
+img {
+    width: 300px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+#name, #email, #message {
+    width: 70%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid  steelblue; 
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; 
+    font-weight: normal;
+    box-sizing: border-box; 
+}
+
+
+textarea {
+    width: 70%; 
+    height: 120px; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid steelblue; 
+    border-radius: 4px;
+    background-color: white;
+    resize: vertical; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; 
+    font-weight: normal;
+}
+
+select {
+    width: 70%; 
+    padding: 12px 20px;
+    border: 1px solid steelblue; 
+    border-radius: 4px;
+    background-color: cyan; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box; 
+}
+
+
+label{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
